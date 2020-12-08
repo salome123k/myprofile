@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@500&display=swap');
+
+body {background: rgb(220;220;220);
+	color : rgb(50,50,50);
+	font-family: 'Lora', serif;
+	font-size: 16px;
+	font-weight: 200;
+}
+
+h1 {color: black;
+ 	font-size: 35px;
+ 	}
+
+ h1,h3 {font-family: 'Roboto', sans-serif;
+		text-align : center;}
+
+h3 {font-weight: 100;}
+
+ a { color: rgb(225,142,150); }
+
+.container {
+	width : 700px;
+	margin: 40px auto ;
+	text-align:center;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white { background-color : 	rgb(255,228,225);
+	margin: 30px 0px ;
+	justify-content:space-between;
+	background: white;                        
+	padding: 2px;                           
+	border-radius: 4px;                        
+	box-shadow: 0 10px 30px rgba(0,0,0,0.1);    
+;
+	 }
+
+.img-circle { border-radius: 50%;
+				width: 700px; 
+				flex:1;
+				text-align: center;}
+
+.list-inline { 
+	list-style : none ;
+	padding-left: 0px;
+			 }
+
+.list-inline li { 
+	display :inline; 
+	padding:10px;}
+
+.list-inline i:hover { 
+	font-size:50px;
+	color:rgb(230,230,230);
+ }
+
+ #introduction p {
+ 	margin-bottom :40px;
+ }
+
+
+
